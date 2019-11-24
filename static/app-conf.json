@@ -1,0 +1,112 @@
+{
+  "tittle": "ICO Visualization",
+  "baseColor": "red darken-3",
+  "controlsColor": "#E42610",
+  "map": {
+    "projectionCode": "EPSG:3857",
+    "proj4Defs": [
+      {
+        "code": "EPSG:3006",
+        "projection": "+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs"
+      }
+    ],
+    "minZoom": 4,
+    "maxZoom": 21,
+    "zoom": 14,
+    "resolutions": [
+      156543.03,
+      78271.52,
+      39135.76,
+      19567.88,
+      9783.94,
+      4891.97,
+      2445.98,
+      1222.99,
+      611.5,
+      305.75,
+      152.87,
+      76.437,
+      38.219,
+      19.109,
+      9.5546,
+      4.7773,
+      2.3887,
+      1.1943,
+      0.5972
+    ],
+    "center": [1017660.922, 6416506.656],
+    "layers": [
+      {
+        "type": "OSM",
+        "name": "osmLight",
+        "title": "OSM Light",
+        "url": "https://{a-c}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png",
+        "group": "backgroundLayers",
+        "maxZoom": 19,
+        "queryable": false,
+        "cascadePrint": true,
+        "visible": true,
+        "displayInLayerList": true,
+        "attributions": "© <a href='https://www.openstreetmap.org/copyright'> OpenStreetMap </a> contributors "
+      },
+
+      {
+        "type": "XYZ",
+        "name": "mapboxStreets",
+        "title": "Mapbox",
+        "group": "backgroundLayers",
+        "url": "https://api.mapbox.com/styles/v1/mapbox/streets-v10/tiles/256/{z}/{x}/{y}",
+        "accessToken": "pk.eyJ1IjoiZWxpYXNwYWphcmVzIiwiYSI6ImNqOW1scnVyOTRxcWwzMm5yYWhta2N2cXcifQ.aDCgidtC9cjf_O75frn9lA",
+        "maxZoom": 19,
+        "queryable": false,
+        "cascadePrint": true,
+        "visible": false,
+        "displayInLayerList": true,
+        "attributions": "© <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a> © <a href='https://www.openstreetmap.org/copyright'> OpenStreetMap contributors</a>"
+      },
+      {
+        "type": "BING",
+        "name": "bingAerial",
+        "title": "Bing Aerial",
+        "group": "backgroundLayers",
+        "accessToken": "Avv4X-3gpZJQ_Ln2eAilMZ8qNI4Y6UtspyNxgIzoCSZC26xi_aXb3AiaXnutPPjH",
+        "imagerySet": "Aerial",
+        "maxZoom": 19,
+        "queryable": false,
+        "cascadePrint": true,
+        "visible": false,
+        "displayInLayerList": true,
+        "attributions": "© Microsoft Coorporation © Digital Globe ©CNES Distribution Airbus DS <a href='https://www.microsoft.com/en-us/maps/product'>Terms of use</a> "
+      },
+      {
+        "type": "HERE",
+        "name": "hereTraffic",
+        "title": "Live Traffic",
+        "group": "backgroundLayers",
+        "map_base": "traffic",
+        "map_type": "maptile",
+        "map_scheme": "normal.day",
+        "app_id": "poKE7AFrwLBqv0n6HUY6",
+        "time": "1573542000",
+        "app_code": "jwBkjMBpb6NWXnnoIMGpRg",
+        "url": "https://{1-4}.{base}.maps.cit.api.here.com/{type}/2.1/traffictile/newest/{scheme}/{z}/{x}/{y}/256/png?app_id={app_id}&app_code={app_code}",
+        "maxZoom": 19,
+        "queryable": false,
+        "cascadePrint": false,
+        "visible": false,
+        "displayInLayerList": true,
+        "attributions": "Map Tiles &copy; <a href='http://developer.here.com'>HERE</a>"
+      }
+    ],
+    "controls": [
+      {
+        "name": "home",
+        "options": {
+          "zoomOnStart": true
+        }
+      }
+    ],
+    "modules": {}
+  },
+  "controls": {}
+}

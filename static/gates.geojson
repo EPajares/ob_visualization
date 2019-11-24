@@ -1,0 +1,44 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.148811,
+					49.832959
+				]
+			},
+			"properties": {
+				"name": "Tor 1"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.151944,
+					49.828765
+				]
+			},
+			"properties": {
+				"name": "Tor 2"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.147803,
+					49.826259
+				]
+			},
+			"properties": {
+				"name": "Tor 4"
+			}
+		}
+	]
+}
