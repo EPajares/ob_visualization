@@ -11,7 +11,7 @@
 				]
 			},
 			"properties": {
-				"name": "Tor 1"
+				"name": "tor1"
 			}
 		},
 		{
@@ -24,7 +24,7 @@
 				]
 			},
 			"properties": {
-				"name": "Tor 2"
+				"name": "tor2"
 			}
 		},
 		{
@@ -37,7 +37,7 @@
 				]
 			},
 			"properties": {
-				"name": "Tor 4"
+				"name": "tor4"
 			}
 		}
 	]

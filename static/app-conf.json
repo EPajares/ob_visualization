@@ -47,9 +47,9 @@
         "cascadePrint": true,
         "visible": true,
         "displayInLayerList": true,
-        "attributions": "© <a href='https://www.openstreetmap.org/copyright'> OpenStreetMap </a> contributors "
+        "attributions": "© Map tiles by Carto, under CC BY 3.0. Data by OpenStreetMap, under ODbL."
       },
-
+      
       {
         "type": "XYZ",
         "name": "mapboxStreets",
@@ -77,25 +77,6 @@
         "visible": false,
         "displayInLayerList": true,
         "attributions": "© Microsoft Coorporation © Digital Globe ©CNES Distribution Airbus DS <a href='https://www.microsoft.com/en-us/maps/product'>Terms of use</a> "
-      },
-      {
-        "type": "HERE",
-        "name": "hereTraffic",
-        "title": "Live Traffic",
-        "group": "backgroundLayers",
-        "map_base": "traffic",
-        "map_type": "maptile",
-        "map_scheme": "normal.day",
-        "app_id": "poKE7AFrwLBqv0n6HUY6",
-        "time": "1573542000",
-        "app_code": "jwBkjMBpb6NWXnnoIMGpRg",
-        "url": "https://{1-4}.{base}.maps.cit.api.here.com/{type}/2.1/traffictile/newest/{scheme}/{z}/{x}/{y}/256/png?app_id={app_id}&app_code={app_code}",
-        "maxZoom": 19,
-        "queryable": false,
-        "cascadePrint": false,
-        "visible": false,
-        "displayInLayerList": true,
-        "attributions": "Map Tiles &copy; <a href='http://developer.here.com'>HERE</a>"
       }
     ],
     "controls": [
